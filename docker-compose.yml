@@ -36,6 +36,6 @@ services:
       - 9000:80
     volumes:
       - static:/staticfiles
-      - media:/media
+      - media:app/media
     depends_on:
       - frontend
